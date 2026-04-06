@@ -1,12 +1,84 @@
-# Practica2_BrunoLlanos DNI 47215311
-#Pautas para la ejecucion de los ejercicios
--Tener instalado python 3.13.2 en la pc
--Descargar repositorio
--Abrir la consola(cmd)
--Dirigirse a la carpeta del repositorio descargado (cd /direccion)
--Crear entorno virtual: python -m venv .venv
--Activar Entorno: .venv\Scripts\activate (deactivate para desactivar)
--Instalar los paquetes necesarios: pip install -r requirements.text
--Ejecutar jupyter notebook : jupyter notebook (Esto sirve para ver las consignas ejecutar los ejercicios)
--En la carpeta src se encuentras las funciones utilizadas para resolver los ejercicios
--La carpeta notebooks que es la que debes abrir, ejecuta linea a linea para importar correctamente los modulos, o ejecuta el codigo que necesites.(Recuerda ejecutar el primer recuadro de codigo para que funcione bien)
+# Practica 2 Python
+  
+Este proyecto contiene la resolución de ejercicios en Python utilizando módulos propios y notebooks de Jupyter para su ejecución y análisis.
+
+## Estructura del proyecto
+
+```text
+Practica2_BrunoLlanos/
+│── src/
+│   └── módulos necesarios del proyecto
+│── notebooks/
+│   └── notebook principal para ejecutar los ejercicios
+│── requirements.txt
+│── README.md
+```
+
+## Descripción de carpetas y archivos
+
+- `src/`: contiene los módulos y archivos `.py` necesarios para el funcionamiento del proyecto.
+- `notebooks/`: contiene el notebook de Jupyter desde donde se ejecutan o prueban los ejercicios.
+- `requirements.txt`: lista de paquetes necesarios para instalar las dependencias del proyecto.
+- `README.md`: documentación general del proyecto.
+
+## Requisitos
+
+- Python 3.13.2
+- Jupyter Notebook o JupyterLab
+- Entorno virtual recomendado
+
+## Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
+
+2. Entrar a la carpeta del proyecto:
+
+```bash
+cd nombre-del-proyecto
+```
+
+3. Crear el entorno virtual:
+
+```bash
+python -m venv venv
+```
+
+4. Activar el entorno virtual:
+
+### En Windows
+```bash
+venv\Scripts\activate
+```
+
+### En Linux / Mac
+```bash
+source venv/bin/activate
+```
+
+5. Instalar las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Ejecución
+
+Para ejecutar los ejercicios, abrir Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Luego ingresar a la carpeta `notebooks/` y abrir el notebook correspondiente.
+
+## Objetivo
+
+El objetivo de este proyecto es organizar y ejecutar ejercicios en Python de forma modular, separando la lógica del programa en archivos dentro de `src/` y utilizando notebooks para su ejecución y prueba.
+
+## Autor
+
+Bruno Llanos
